@@ -33,15 +33,7 @@
 // MAGIC * [Decision Tree Classifier](https://medium.com/swlh/decision-tree-classification-de64fc4d5aac)
 // MAGIC 
 // MAGIC ### Architecture
-// MAGIC <img src="files/shared_uploads/mark.lee@databricks.com/Population_Segmentation__1_.png" width = 100% /img>
-
-// COMMAND ----------
-
-// MAGIC %md
-// MAGIC 
-// MAGIC ## Results
-// MAGIC 
-// MAGIC SHOW EXAMPLE RESULTS
+// MAGIC <img src="https://github.com/brickmeister/data_science_workshop/blob/main/img/Population_Segmentation__1_.png?raw=true" width = 100% /img>
 
 // COMMAND ----------
 
@@ -52,27 +44,7 @@
 
 // MAGIC %md
 // MAGIC 
-// MAGIC ## Retrieve Gold Level Data
-
-// COMMAND ----------
-
-// %scala
-
-// /*
-//   Load the Databricks Adult income Dataset into a dataframe
-// */
-
-// val df_columns = Seq("age", "workclass", "fnlwgt", "education", "education-num", 
-//                      "marital-status", "occupation", "relationship", "race", "sex", 
-//                      "capital-gain", "capital-loss", "hours-per-week", "native-country",
-//                      "label");
-
-// val df = spark.read
-//           .format("csv")
-//           .load("dbfs:/databricks-datasets/adult/adult.data")
-//           .toDF(df_columns : _*);
-
-// display(df);
+// MAGIC ## Retrieve Bronze Level Data
 
 // COMMAND ----------
 
